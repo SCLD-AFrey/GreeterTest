@@ -2,6 +2,7 @@ C:\Development\SCLD-AFrey\GrpcMulti\Greeter\Greeter\bin\Debug\net6.0\Greeter.dep
 C:\Development\SCLD-AFrey\GrpcMulti\Greeter\Greeter\bin\Debug\net6.0\Greeter.dll
 C:\Development\SCLD-AFrey\GrpcMulti\Greeter\Greeter\bin\Debug\net6.0\ref\Greeter.dll
 C:\Development\SCLD-AFrey\GrpcMulti\Greeter\Greeter\bin\Debug\net6.0\Greeter.pdb
+C:\Development\SCLD-AFrey\GrpcMulti\Greeter\Greeter\obj\Debug\net6.0\Greeter.csproj.AssemblyReference.cache
 C:\Development\SCLD-AFrey\GrpcMulti\Greeter\Greeter\obj\Debug\net6.0\Greeter.GeneratedMSBuildEditorConfig.editorconfig
 C:\Development\SCLD-AFrey\GrpcMulti\Greeter\Greeter\obj\Debug\net6.0\Greeter.AssemblyInfoInputs.cache
 C:\Development\SCLD-AFrey\GrpcMulti\Greeter\Greeter\obj\Debug\net6.0\Greeter.AssemblyInfo.cs

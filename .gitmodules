@@ -1,0 +1,3 @@
+[submodule "SteelCloud.ConfigOS.Protos"]
+	path = SteelCloud.ConfigOS.Protos
+	url = https://github.com/SteelCloudLLC/SteelCloud.ConfigOS.Protos.git

@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GreeterClient", "GreeterCli
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GreeterServer", "GreeterServer\GreeterServer.csproj", "{E74AF3B3-92EB-4B75-8104-4B127CA419B7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Greeter", "Greeter\Greeter.csproj", "{58C49B2A-5B81-41AB-A922-A02C6C3C306A}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{E74AF3B3-92EB-4B75-8104-4B127CA419B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E74AF3B3-92EB-4B75-8104-4B127CA419B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E74AF3B3-92EB-4B75-8104-4B127CA419B7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{58C49B2A-5B81-41AB-A922-A02C6C3C306A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{58C49B2A-5B81-41AB-A922-A02C6C3C306A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{58C49B2A-5B81-41AB-A922-A02C6C3C306A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{58C49B2A-5B81-41AB-A922-A02C6C3C306A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "VIkfC9dsWOrgVTX+9cI6qx4ziyph5WvTN3vOcpjPuqmp8GMJABNEmLhLcZNAF+GsG45Jb/Rw2WpM74sK2noB2w==",
+  "dgSpecHash": "t2JkSeKUD2SyCUFxPNLr8UK/Y6Q4fxSPD8RMRDxURLuCbnsxroUC8AH5kqhs2oBKeVNvKYgZsXMaXw+v8uDgCA==",
   "success": true,
   "projectFilePath": "C:\\Development\\SCLD-AFrey\\GrpcMulti\\Greeter\\GreeterClient\\GreeterClient.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\afrey\\.nuget\\packages\\google.protobuf\\3.19.4\\google.protobuf.3.19.4.nupkg.sha512",
-    "C:\\Users\\afrey\\.nuget\\packages\\greeter\\1.0.1\\greeter.1.0.1.nupkg.sha512",
     "C:\\Users\\afrey\\.nuget\\packages\\grpc\\2.43.0\\grpc.2.43.0.nupkg.sha512",
     "C:\\Users\\afrey\\.nuget\\packages\\grpc.core\\2.43.0\\grpc.core.2.43.0.nupkg.sha512",
     "C:\\Users\\afrey\\.nuget\\packages\\grpc.core.api\\2.43.0\\grpc.core.api.2.43.0.nupkg.sha512",
+    "C:\\Users\\afrey\\.nuget\\packages\\grpc.tools\\2.43.0\\grpc.tools.2.43.0.nupkg.sha512",
     "C:\\Users\\afrey\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
   ],
   "logs": []

@@ -5,7 +5,6 @@ C:\Development\SCLD-AFrey\GrpcMulti\Greeter\GreeterClient\bin\Debug\net6.0\Greet
 C:\Development\SCLD-AFrey\GrpcMulti\Greeter\GreeterClient\bin\Debug\net6.0\ref\GreeterClient.dll
 C:\Development\SCLD-AFrey\GrpcMulti\Greeter\GreeterClient\bin\Debug\net6.0\GreeterClient.pdb
 C:\Development\SCLD-AFrey\GrpcMulti\Greeter\GreeterClient\bin\Debug\net6.0\Google.Protobuf.dll
-C:\Development\SCLD-AFrey\GrpcMulti\Greeter\GreeterClient\bin\Debug\net6.0\Greeter.dll
 C:\Development\SCLD-AFrey\GrpcMulti\Greeter\GreeterClient\bin\Debug\net6.0\Grpc.Core.dll
 C:\Development\SCLD-AFrey\GrpcMulti\Greeter\GreeterClient\bin\Debug\net6.0\Grpc.Core.Api.dll
 C:\Development\SCLD-AFrey\GrpcMulti\Greeter\GreeterClient\bin\Debug\net6.0\runtimes\linux-arm64\native\libgrpc_csharp_ext.arm64.so

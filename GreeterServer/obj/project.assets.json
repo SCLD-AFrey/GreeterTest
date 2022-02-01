@@ -11,19 +11,6 @@
           "lib/net5.0/Google.Protobuf.dll": {}
         }
       },
-      "Greeter/1.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Google.Protobuf": "3.19.4",
-          "Grpc": "2.43.0"
-        },
-        "compile": {
-          "lib/net6.0/Greeter.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/Greeter.dll": {}
-        }
-      },
       "Grpc/2.43.0": {
         "type": "package",
         "dependencies": {
@@ -77,6 +64,13 @@
           "lib/netstandard2.0/Grpc.Core.Api.dll": {}
         }
       },
+      "Grpc.Tools/2.43.0": {
+        "type": "package",
+        "build": {
+          "build/Grpc.Tools.props": {},
+          "build/Grpc.Tools.targets": {}
+        }
+      },
       "System.Memory/4.5.3": {
         "type": "package",
         "compile": {
@@ -110,17 +104,6 @@
         "lib/netstandard2.0/Google.Protobuf.dll",
         "lib/netstandard2.0/Google.Protobuf.pdb",
         "lib/netstandard2.0/Google.Protobuf.xml"
-      ]
-    },
-    "Greeter/1.0.1": {
-      "sha512": "xeCBknXK0YsFSVKl6StsdwqFQHA5cd346Ai9STHwEtJdZCMfApbLuIZIahghOP72siEVusEIctc5KmrgNiBzPA==",
-      "type": "package",
-      "path": "greeter/1.0.1",
-      "files": [
-        ".nupkg.metadata",
-        "greeter.1.0.1.nupkg.sha512",
-        "greeter.nuspec",
-        "lib/net6.0/Greeter.dll"
       ]
     },
     "Grpc/2.43.0": {
@@ -184,6 +167,55 @@
         "packageIcon.png"
       ]
     },
+    "Grpc.Tools/2.43.0": {
+      "sha512": "JRcG4VqrDE2P+QxKpTk+9BU2ZjHxTZ2oecd5auWa3ViWCCVZY/MZuGcLXj8DjSBS8sDpk6vQXrsjw8nIyoRMNw==",
+      "type": "package",
+      "path": "grpc.tools/2.43.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Grpc.Tools.props",
+        "build/Grpc.Tools.targets",
+        "build/_grpc/Grpc.CSharp.xml",
+        "build/_grpc/_Grpc.Tools.props",
+        "build/_grpc/_Grpc.Tools.targets",
+        "build/_protobuf/Google.Protobuf.Tools.props",
+        "build/_protobuf/Google.Protobuf.Tools.targets",
+        "build/_protobuf/Protobuf.CSharp.xml",
+        "build/_protobuf/net45/Protobuf.MSBuild.dll",
+        "build/_protobuf/net45/Protobuf.MSBuild.pdb",
+        "build/_protobuf/netstandard1.3/Protobuf.MSBuild.dll",
+        "build/_protobuf/netstandard1.3/Protobuf.MSBuild.pdb",
+        "build/native/Grpc.Tools.props",
+        "build/native/include/google/protobuf/any.proto",
+        "build/native/include/google/protobuf/api.proto",
+        "build/native/include/google/protobuf/descriptor.proto",
+        "build/native/include/google/protobuf/duration.proto",
+        "build/native/include/google/protobuf/empty.proto",
+        "build/native/include/google/protobuf/field_mask.proto",
+        "build/native/include/google/protobuf/source_context.proto",
+        "build/native/include/google/protobuf/struct.proto",
+        "build/native/include/google/protobuf/timestamp.proto",
+        "build/native/include/google/protobuf/type.proto",
+        "build/native/include/google/protobuf/wrappers.proto",
+        "grpc.tools.2.43.0.nupkg.sha512",
+        "grpc.tools.nuspec",
+        "packageIcon.png",
+        "tools/linux_arm64/grpc_csharp_plugin",
+        "tools/linux_arm64/protoc",
+        "tools/linux_x64/grpc_csharp_plugin",
+        "tools/linux_x64/protoc",
+        "tools/linux_x86/grpc_csharp_plugin",
+        "tools/linux_x86/protoc",
+        "tools/macosx_x64/grpc_csharp_plugin",
+        "tools/macosx_x64/protoc",
+        "tools/windows_x64/grpc_csharp_plugin.exe",
+        "tools/windows_x64/protoc.exe",
+        "tools/windows_x86/grpc_csharp_plugin.exe",
+        "tools/windows_x86/protoc.exe"
+      ]
+    },
     "System.Memory/4.5.3": {
       "sha512": "3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
       "type": "package",
@@ -208,7 +240,9 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Greeter >= 1.0.1"
+      "Google.Protobuf >= 3.19.4",
+      "Grpc >= 2.43.0",
+      "Grpc.Tools >= 2.43.0"
     ]
   },
   "packageFolders": {
@@ -268,9 +302,18 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
-          "Greeter": {
+          "Google.Protobuf": {
             "target": "Package",
-            "version": "[1.0.1, )"
+            "version": "[3.19.4, )"
+          },
+          "Grpc": {
+            "target": "Package",
+            "version": "[2.43.0, )"
+          },
+          "Grpc.Tools": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[2.43.0, )"
           }
         },
         "imports": [

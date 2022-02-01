@@ -55,9 +55,18 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Greeter": {
+            "Google.Protobuf": {
               "target": "Package",
-              "version": "[1.0.1, )"
+              "version": "[3.19.4, )"
+            },
+            "Grpc": {
+              "target": "Package",
+              "version": "[2.43.0, )"
+            },
+            "Grpc.Tools": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.43.0, )"
             }
           },
           "imports": [
