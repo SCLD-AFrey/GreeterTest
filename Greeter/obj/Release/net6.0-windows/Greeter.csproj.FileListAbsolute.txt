@@ -1,0 +1,11 @@
+C:\Development\SCLD-AFrey\GrpcMulti\Greeter\Greeter\bin\Release\net6.0-windows\Greeter.deps.json
+C:\Development\SCLD-AFrey\GrpcMulti\Greeter\Greeter\bin\Release\net6.0-windows\Greeter.dll
+C:\Development\SCLD-AFrey\GrpcMulti\Greeter\Greeter\bin\Release\net6.0-windows\ref\Greeter.dll
+C:\Development\SCLD-AFrey\GrpcMulti\Greeter\Greeter\bin\Release\net6.0-windows\Greeter.pdb
+C:\Development\SCLD-AFrey\GrpcMulti\Greeter\Greeter\obj\Release\net6.0-windows\Greeter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Development\SCLD-AFrey\GrpcMulti\Greeter\Greeter\obj\Release\net6.0-windows\Greeter.AssemblyInfoInputs.cache
+C:\Development\SCLD-AFrey\GrpcMulti\Greeter\Greeter\obj\Release\net6.0-windows\Greeter.AssemblyInfo.cs
+C:\Development\SCLD-AFrey\GrpcMulti\Greeter\Greeter\obj\Release\net6.0-windows\Greeter.csproj.CoreCompileInputs.cache
+C:\Development\SCLD-AFrey\GrpcMulti\Greeter\Greeter\obj\Release\net6.0-windows\Greeter.dll
+C:\Development\SCLD-AFrey\GrpcMulti\Greeter\Greeter\obj\Release\net6.0-windows\ref\Greeter.dll
+C:\Development\SCLD-AFrey\GrpcMulti\Greeter\Greeter\obj\Release\net6.0-windows\Greeter.pdb
